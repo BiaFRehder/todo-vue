@@ -11,13 +11,13 @@
             <div class="col-md-2">
                 <button type="submit" class="btn btn-primary">Cadastrar</button>
             </div>
-        </div>
-        <div class="col-md-2">
-            <select @change="props.trocarFiltro" class="form-control">
-                <option value="todas">Todas tarefas</option>
-                <option value="pendentes">Pendentes</option>
-                <option value="finalizadas">Finalizadas</option>
-            </select>
+            <div class="col-md-2">
+                <select @change="props.trocarFiltro" class="form-control">
+                    <option value="todas">Todas tarefas</option>
+                    <option value="pendentes">Pendentes</option>
+                    <option value="finalizadas">Finalizadas</option>
+                </select>
+            </div>
         </div>
     </form>
 </template>
